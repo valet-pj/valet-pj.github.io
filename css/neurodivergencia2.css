@@ -1,0 +1,107 @@
+/* CONFIGURACIÓN GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #210052, #172b91, #5000a8);
+    color: #ffffff;
+    padding: 30px;
+    line-height: 1.8;
+}
+section {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #351078, #243a9e);
+    border-radius: 25px;
+    border: 2px solid #9b6aff;
+    box-shadow: 0 10px 30px #08002b80;
+}
+h1 {
+    color: #ffffff;
+    background: linear-gradient(90deg, #8c36ff, #087eff);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 5px #260052;
+}
+h2 {
+    color: #79d7ff;
+    font-size: 27px;
+    margin: 25px 0 15px;
+    border-bottom: 3px solid #a66bff;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #d1a6ff;
+    font-size: 22px;
+    margin: 25px 0 15px;
+}
+p {
+    color: #f0eaff;
+    font-size: 17px;
+    margin: 15px 0;
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    margin: 20px 0;
+}
+li {
+    background: linear-gradient(90deg, #5420a5, #174cae);
+    color: white;
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border-left: 5px solid #61d5ff;
+    box-shadow: 0 4px 10px #08002b50;
+    transition: 0.3s;
+}
+li:hover {
+    transform: translateX(8px);
+    background: linear-gradient(90deg, #7428d6, #087edb);
+}
+strong {
+    color: #73dcff;
+    font-size: 17px;
+}
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(90deg, #9e45ff, #00c8ff);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 12px;
+    }
+    section {
+        padding: 20px;
+        margin: 10px auto;
+    }
+    h1 {
+        font-size: 27px;
+        padding: 15px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    p {
+        font-size: 15px;
+    }
+    li {
+        padding: 13px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e6d5ff, #c5d9ff);
+    color: #292052;
+    line-height: 1.7;
+}
+header {
+    background: linear-gradient(90deg, #5100a8, #1738c9, #7625d6);
+    color: white;
+    padding: 25px 15px;
+    box-shadow: 0 4px 15px #32106b80;
+}
+header table {
+    width: 100%;
+}
+header h1 {
+    color: #ffffff;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px #23004d;
+}
+header p {
+    color: #e3d5ff;
+    font-size: 16px;
+}
+header img {
+    max-width: 130px;
+    height: auto;
+    border-radius: 15px;
+}
+nav {
+    text-align: right;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #65e0ff;
+    text-decoration: underline;
+}
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+section {
+    background: linear-gradient(135deg, #ffffff, #e9e0ff);
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px #48218b30;
+    border-left: 7px solid #7135d9;
+}
+h2 {
+    color: #5413a8;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+h3 {
+    color: #174bc5;
+    font-size: 22px;
+    margin: 15px 0;
+}
+p {
+    color: #30264e;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+button {
+    background: linear-gradient(90deg, #6800c9, #1749df);
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(90deg, #1749df, #00a9df);
+    transform: scale(1.05);
+}
+a {
+    color: #5420bb;
+}
+a:hover {
+    color: #008bd4;
+}
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(90deg, #6900c9, #1689e8);
+    margin: 25px 0;
+    border-radius: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+footer {
+    background: linear-gradient(90deg, #410080, #142e9e);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+footer p {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 95%;
+    }
+    header table,
+    main table {
+        width: 100%;
+    }
+    header table,
+    header tr,
+    header td,
+    main table,
+    main tr,
+    main td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+    nav a {
+        display: inline-block;
+        padding: 7px;
+    }
+    section {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    img {
+        max-width: 100%;
+    }
+}

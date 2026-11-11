@@ -1,0 +1,62 @@
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dcd6ff, #b8d9ff);
+    margin: 0;
+    padding: 40px 20px;
+    color: #30245c;
+}
+section {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(65, 45, 130, 0.2);
+}
+h1 {
+    color: #673ab7;
+    text-align: center;
+    font-size: 35px;
+}
+h2 {
+    color: #3478c9;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+label {
+    color: #59369c;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #a99be8;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+input[type="text"]:focus {
+    border-color: #438bd5;
+}
+input[type="submit"] {
+    background: linear-gradient(90deg, #8054c7, #398bd8);
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(90deg, #59369c, #2465a8);
+}
+hr {
+    border: 1px solid #a99be8;
+    margin-top: 30px;
+}
